@@ -1,0 +1,7 @@
+ARG_ENABLE('wcl', 'wcl support', 'no');
+
+if (PHP_WCL != 'no') {
+	AC_DEFINE('HAVE_WCL', 1, 'wcl support enabled');
+
+	EXTENSION('wcl', 'wcl.c', null, '/DZEND_ENABLE_STATIC_TSRMLS_CACHE=1');
+}
