@@ -26,3 +26,8 @@ cat main.php
 
 php -d "wcl.filter_blank=0" -c your-php-install-path/php.ini main.php 
 ```
+
+
+## thanks 
+> 1. [https://github.com/dstogov/php-extension](https://github.com/dstogov/php-extension)
+> 2. [https://www.zend.com/resources/writing-php-extensions](https://www.zend.com/resources/writing-php-extensions)
