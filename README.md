@@ -9,6 +9,12 @@
 ```bash
 cd cd your-php-src/ext/wcl
 make clean
+
+# product configure file
+phpize
+# generate compile need 
+./configure --with-php-config=`which php-config`
+# compile
 make
 make install
 ```
